@@ -33,7 +33,7 @@ yearFounded= 2025;
         plane1.capacity=500;
         plane1.isDoubleDeacker=true;
         plane1.length=70;
-        plane1.model="b1 b lancer";
+        plane1.model="b3 b lancer";
         System.out.println(plane1.model);
 AirPlane plane2 = new AirPlane();
 System.out.println(plane2.capacity);
@@ -43,6 +43,29 @@ plane2.capacity=615;
         //for one of the object change all the instance variables
         //for both objects print all the instance variable
 
+        plane2.name = "Jacobs";
+        System.out.println(plane2.name);
+        plane2.capacity=500;
+        plane2.isDoubleDeacker=true;
+        plane2.length=70;
+        plane2.model="AK67";
+        System.out.println(plane1.model);
+        System.out.println(plane2.capacity);
+        plane2.capacity=875;
+
+
+        AirPlane plane3 = new AirPlane();
+        System.out.println(plane3.capacity);
+        plane3.capacity=615;
+        plane3.name = "kamba";
+        System.out.println(plane1.name);
+        plane3.capacity=500;
+        plane3.isDoubleDeacker=true;
+        plane3.length=70;
+        plane3.model="AK57";
+        System.out.println(plane1.model);
+        System.out.println(plane2.capacity);
+        plane3.capacity=155;
 
 
     }
