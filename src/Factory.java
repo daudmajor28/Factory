@@ -35,6 +35,8 @@ yearFounded= 2025;
         plane1.length=70;
         plane1.model="b3 b lancer";
         System.out.println(plane1.model);
+
+
 AirPlane plane2 = new AirPlane();
 System.out.println(plane2.capacity);
 plane2.capacity=615;
@@ -54,18 +56,10 @@ plane2.capacity=615;
         plane2.capacity=875;
 
 
-        AirPlane plane3 = new AirPlane();
+        AirPlane plane3 = new AirPlane( 232);
         System.out.println(plane3.capacity);
-        plane3.capacity=615;
-        plane3.name = "kamba";
-        System.out.println(plane1.name);
-        plane3.capacity=500;
-        plane3.isDoubleDeacker=true;
-        plane3.length=70;
-        plane3.model="AK57";
-        System.out.println(plane1.model);
-        System.out.println(plane2.capacity);
-        plane3.capacity=155;
+        plane3.printInfo();
+
 
 
     }
