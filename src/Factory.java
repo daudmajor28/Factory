@@ -56,7 +56,7 @@ plane2.capacity=615;
         plane2.capacity=875;
 
 
-        AirPlane plane3 = new AirPlane( 232);
+        AirPlane plane3 = new AirPlane( 232,"jacob","A380",70,false);
         System.out.println(plane3.capacity);
         plane3.printInfo();
 
