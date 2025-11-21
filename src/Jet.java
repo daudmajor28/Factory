@@ -4,11 +4,6 @@ public class Jet {
     boolean KilometersPerSeconds;
 
 
-    public void printInfo() {
-        System.out.println(speed);
-        System.out.println(KilometersPerSeconds);
-        System.out.println("this plane is named" + name);
-    }
 //contructor
      public Jet(){
             speed=250;
@@ -16,4 +11,14 @@ public class Jet {
             KilometersPerSeconds= false;
 
     }
-}
+    public Jet(int pSpeed, String kName, boolean pKilometersPerSeconds) {
+        speed=pSpeed;
+        name=kName;
+        KilometersPerSeconds=pKilometersPerSeconds;
+    }
+
+    public void printInfo() {
+        System.out.println(speed);
+        System.out.println(KilometersPerSeconds);
+        System.out.println("this plane is named" + name);
+    }}

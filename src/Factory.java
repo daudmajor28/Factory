@@ -61,6 +61,10 @@ plane2.capacity=615;
         plane3.printInfo();
 
 
+        Jet plane4 = new Jet(250,"Kampala6",false);
+        System.out.println(plane4.KilometersPerSeconds);
+        plane4.printInfo();
+
 
     }
     // make a method called factoryInfo, nothing should be in the method.
